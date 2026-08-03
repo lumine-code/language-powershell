@@ -1,7 +1,7 @@
 {
   "name": "PowerShell",
   "scopeName": "source.powershell",
-  "type": "modern-tree-sitter",
+  "type": "tree-sitter",
   "parser": "tree-sitter-powershell",
   "injectionRegex": "^(powershell)$",
   "fileTypes": ["ps1", "psm1", "psd1", "ps1xml", "pssc", "psrc"],
