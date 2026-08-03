@@ -1,0 +1,24 @@
+{
+  "name": "PowerShell",
+  "scopeName": "source.powershell",
+  "type": "modern-tree-sitter",
+  "parser": "tree-sitter-powershell",
+  "injectionRegex": "^(powershell)$",
+  "fileTypes": ["ps1", "psm1", "psd1", "ps1xml", "pssc", "psrc"],
+  "comments": {
+    "start": "# "
+  },
+  "treeSitter": {
+    // Pin a tag or a full SHA, never a branch. Verify the ref is on the main
+    // line before trusting it — `gh api repos/OWNER/REPO/compare/<ref>...HEAD`
+    // reporting `diverged` or a nonzero `behind` means it is not.
+    "parserSource": "github:airbus-cert/tree-sitter-powershell#v0.26.5",
+    "wasmBuildTool": "tree-sitter-cli#v0.26.11",
+    "grammar": "tree-sitter-powershell/tree-sitter-powershell.wasm",
+    "highlightsQuery": "tree-sitter-powershell/highlights.scm",
+    "foldsQuery": "tree-sitter-powershell/folds.scm",
+    "indentsQuery": "tree-sitter-powershell/indents.scm",
+    "tagsQuery": "tree-sitter-powershell/tags.scm",
+    "localsQuery": "tree-sitter-powershell/locals.scm"
+  }
+}
