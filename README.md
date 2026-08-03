@@ -10,6 +10,10 @@ PowerShell language support.
 - **Auto-indentation**: indents inside braces, parentheses and hashtable literals.
 - **Symbol navigation**: functions and classes.
 
+## Installation
+
+To install `language-powershell` search for _language-powershell_ in the Install pane of the Lumine settings or run `lumine --install lumine-code/language-powershell`.
+
 ## Services
 
 - **hyperlink.injection** (`^1.0.0`): consumed to highlight URLs inside PowerShell files as clickable links.
