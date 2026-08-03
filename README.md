@@ -4,7 +4,7 @@ PowerShell language support.
 
 ## Features
 
-- **Grammars**: provides Tree-sitter grammars.
+- **Grammars**: provides Tree-sitter grammars, built from [tree-sitter-powershell](https://github.com/airbus-cert/tree-sitter-powershell).
 - **Syntax highlighting**: cmdlets, parameters, variables and the word operators, with types and automatic variables recognised by name.
 - **Folding**: folds script blocks and hashtables.
 - **Auto-indentation**: indents inside braces, parentheses and hashtable literals.
