@@ -9,7 +9,7 @@ const path = require("path");
 
 describe("PowerShell Tree-sitter grammar", () => {
   beforeEach(async () => {
-    await atom.packages.activatePackage("language-powershell");
+    await lumine.packages.activatePackage("language-powershell");
   });
 
   it("tokenizes the fixture", async () => {
