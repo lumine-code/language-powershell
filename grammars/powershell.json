@@ -3,7 +3,7 @@
   "scopeName": "source.powershell",
   "type": "tree-sitter",
   "parser": "tree-sitter-powershell",
-  "injectionRegex": "^(powershell)$",
+  "injectionNames": ["powershell"],
   "fileTypes": ["ps1", "psm1", "psd1", "ps1xml", "pssc", "psrc"],
   "comments": {
     "start": "# "
@@ -14,11 +14,11 @@
     // reporting `diverged` or a nonzero `behind` means it is not.
     "parserSource": "github:airbus-cert/tree-sitter-powershell#v0.26.5",
     "wasmBuildTool": "tree-sitter-cli#v0.26.13",
-    "grammar": "tree-sitter-powershell/tree-sitter-powershell.wasm",
-    "highlightsQuery": "tree-sitter-powershell/highlights.scm",
-    "foldsQuery": "tree-sitter-powershell/folds.scm",
-    "indentsQuery": "tree-sitter-powershell/indents.scm",
-    "tagsQuery": "tree-sitter-powershell/tags.scm",
-    "localsQuery": "tree-sitter-powershell/locals.scm"
+    "grammar": "powershell.wasm",
+    "highlightsQuery": "powershell-highlights.scm",
+    "foldsQuery": "powershell-folds.scm",
+    "indentsQuery": "powershell-indents.scm",
+    "tagsQuery": "powershell-tags.scm",
+    "localsQuery": "powershell-locals.scm"
   }
 }
