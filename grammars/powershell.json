@@ -19,6 +19,7 @@
     "foldsQuery": "powershell-folds.scm",
     "indentsQuery": "powershell-indents.scm",
     "tagsQuery": "powershell-tags.scm",
-    "localsQuery": "powershell-locals.scm"
+    "localsQuery": "powershell-locals.scm",
+    "injectionsQuery": "powershell-injections.scm"
   }
 }
