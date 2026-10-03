@@ -4,7 +4,7 @@
   "type": "tree-sitter",
   "parser": "tree-sitter-powershell",
   "injectionNames": ["powershell", "posh", "ps1", "pwsh"],
-  "fileTypes": ["ps1", "psm1", "psd1", "ps1xml", "pssc", "psrc"],
+  "fileTypes": ["ps1", "psm1", "psd1", "pssc", "psrc"],
   "comments": {
     "start": "# "
   },
