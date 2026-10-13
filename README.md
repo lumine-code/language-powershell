@@ -10,6 +10,8 @@ PowerShell language support.
 - **Auto-indentation**: indents inside braces, parentheses and hashtable literals.
 - **Symbol navigation**: functions and classes.
 
+![PowerShell syntax highlighting at the default editor font size.](.github/demo.png)
+
 ## Installation
 
 To install `language-powershell` search for it in the Install pane of the Lumine settings, or run the command `lumine --install lumine-code/language-powershell`.

@@ -1,0 +1,16 @@
+{
+  "title": "language-powershell",
+  "description": "PowerShell syntax highlighting in the editor.",
+  "recordedOn": "2026-10-13",
+  "sourceRevision": "a47df41608874f3b31e7287bd52d34dd3efce42e",
+  "mode": "normal",
+  "fontSettings": "default",
+  "images": [
+    {
+      "file": "demo.png",
+      "label": "PowerShell syntax highlighting at the default editor font size.",
+      "width": 1100,
+      "height": 406
+    }
+  ]
+}
