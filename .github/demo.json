@@ -1,16 +1,61 @@
 {
   "title": "language-powershell",
-  "description": "PowerShell syntax highlighting in the editor.",
-  "recordedOn": "2026-10-13",
-  "sourceRevision": "a47df41608874f3b31e7287bd52d34dd3efce42e",
+  "description": "PowerShell syntax highlighting at the default editor font size.",
+  "recordedOn": "2026-10-14",
+  "sourceRevision": "ee66c90eb7dcbc9814e7df33b95187c5011007b2",
+  "themeSourceRevision": "14a69683b0e3238e2bc128fbfae3866c1e4ee9c6",
   "mode": "normal",
   "fontSettings": "default",
+  "scenario": "demo.js",
+  "recipeHash": "a84bcfc2b96fa33ae0168bec3f42a4b73c16e075bad5abe2ba812d8fb8af37be",
+  "environment": {
+    "platform": "win32",
+    "arch": "x64",
+    "electron": "44.7.0",
+    "chrome": "152.0.7977.130",
+    "devicePixelRatio": 1,
+    "locale": "en-GB",
+    "fontFamily": "Fira Code, Menlo, DejaVu Sans Mono, Consolas, monospace",
+    "fontSize": 14,
+    "themes": ["one-day-syntax", "one-day-ui"]
+  },
+  "viewport": { "width": 1100, "height": 406 },
+  "cornerRadius": 10,
+  "sources": {
+    "editor": {
+      "revision": "0362a9fac7d6e153a768c0381800d6f3eb06647a",
+      "dirty": true,
+      "workingTreeHash": "1d75658a8b7d55a69c806a3786c562863bb9d5c71cbf96b3084c6a78c0d648b4"
+    },
+    "package": {
+      "revision": "ee66c90eb7dcbc9814e7df33b95187c5011007b2",
+      "dirty": true,
+      "workingTreeHash": "391aeb02b83ab820d1eb2bfb6fb5974d25fc73f5eba5af3fc61621bda28ea660"
+    },
+    "language-powershell": {
+      "revision": "ee66c90eb7dcbc9814e7df33b95187c5011007b2",
+      "dirty": true,
+      "workingTreeHash": "391aeb02b83ab820d1eb2bfb6fb5974d25fc73f5eba5af3fc61621bda28ea660"
+    },
+    "one-theme": {
+      "revision": "14a69683b0e3238e2bc128fbfae3866c1e4ee9c6",
+      "dirty": true,
+      "workingTreeHash": "50ec2f83a6347dd8113870992ec4eb2be4014f3d9e12213c2f51b543f1eca793"
+    }
+  },
+  "fixtures": [
+    {
+      "file": "example.ps1",
+      "sha256": "891928dbe3c03042aa1a451f7fb5cdaa3520af83828176d6c49fc91eb8f913f1"
+    }
+  ],
   "images": [
     {
       "file": "demo.png",
       "label": "PowerShell syntax highlighting at the default editor font size.",
       "width": 1100,
-      "height": 406
+      "height": 406,
+      "sha256": "0b978f56f9d887ad7bdc2cea70ea743c08ea52f9aaf89eadb985071eb2288a9f"
     }
   ]
 }
