@@ -1,6 +1,7 @@
 ----- BEGIN THIRD-PARTY LICENSE: parser:airbus-cert_tree-sitter-powershell -----
 Source: https://github.com/airbus-cert/tree-sitter-powershell
-Revision: v0.26.5
+Commit: c96b28ed405e3172e0a4b6a97fc132ce2e3b6304
+Ref: c96b28ed405e3172e0a4b6a97fc132ce2e3b6304
 
 Original file: LICENSE
 

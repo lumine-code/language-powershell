@@ -12,7 +12,7 @@
     // Pin a tag or a full SHA, never a branch. Verify the ref is on the main
     // line before trusting it — `gh api repos/OWNER/REPO/compare/<ref>...HEAD`
     // reporting `diverged` or a nonzero `behind` means it is not.
-    "parserSource": "github:airbus-cert/tree-sitter-powershell#v0.26.5",
+    "parserSource": "github:airbus-cert/tree-sitter-powershell#c96b28ed405e3172e0a4b6a97fc132ce2e3b6304",
     "wasmBuildTool": "tree-sitter-cli#v0.27.0",
     "grammar": "powershell.wasm",
     "highlightsQuery": "powershell-highlights.scm",
