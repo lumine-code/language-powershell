@@ -13,7 +13,7 @@
     // line before trusting it — `gh api repos/OWNER/REPO/compare/<ref>...HEAD`
     // reporting `diverged` or a nonzero `behind` means it is not.
     "parserSource": "github:airbus-cert/tree-sitter-powershell#c96b28ed405e3172e0a4b6a97fc132ce2e3b6304",
-    "wasmBuildTool": "tree-sitter-cli#v0.27.0",
+    "wasmBuildTool": "tree-sitter-cli#v0.27.1",
     "grammar": "powershell.wasm",
     "highlightsQuery": "powershell-highlights.scm",
     "foldsQuery": "powershell-folds.scm",
