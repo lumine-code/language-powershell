@@ -119,7 +119,10 @@
 
 (variable) @variable.other.powershell
 
-(comment) @comment.line.powershell
+((comment) @comment.line.powershell
+  (#match? @comment.line.powershell "^#"))
+((comment) @comment.block.powershell
+  (#match? @comment.block.powershell "^<#"))
 
 (array_expression) @meta.array.powershell
 
