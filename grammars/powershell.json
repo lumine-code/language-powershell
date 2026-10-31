@@ -5,7 +5,7 @@
   "parser": "tree-sitter-powershell",
   "injectionNames": ["powershell", "posh", "ps1", "pwsh"],
   "fileTypes": ["ps1", "psm1", "psd1", "pssc", "psrc"],
-  "firstLineRegex": "^#![ \\t]*(?:/[^\\r\\n \\t]*/(?:pwsh|powershell)|/[^\\r\\n \\t]*/env[ \\t]+(?:-S[ \\t]+)?(?:pwsh|powershell))(?=[ \\t\\r\\n]|$)",
+  "firstLineRegex": "^#![ \\t]*(?:/[^\\x0d\\x0a \\t]*/(?:pwsh(?:\\.exe)?|powershell(?:\\.exe)?)|/[^\\x0d\\x0a \\t]*/env(?:\\.exe)?[ \\t]+(?:-S[ \\t]+)?(?:pwsh(?:\\.exe)?|powershell(?:\\.exe)?))(?=[ \\t\\x0d\\x0a]|$)",
   "comments": {
     "start": "# "
   },

@@ -52,9 +52,17 @@ describe("powershell editing settings", () => {
       "#!/usr/bin/env pwsh",
       "#!/usr/bin/env -S pwsh -NoProfile",
       "#!/usr/bin/env powershell\r\n",
+      "#!/usr/bin/pwsh.exe",
+      "#!/usr/bin/env powershell.exe",
+      "#!/usr/bin/env.exe -S pwsh.exe -NoProfile",
     ])
       expect(lumine.grammars.selectGrammar("script", text).scopeName).toBe("source.powershell");
-    for (const text of ["#!/usr/bin/env pwsh-tool", "#!/usr/bin/env bash -c pwsh"])
+    for (const text of [
+      "#!/usr/bin/env pwsh-tool",
+      "#!/usr/bin/pwsh.exe-wrapper",
+      "#!/usr/bin/env.exe -S bash -c pwsh.exe",
+      "#!/usr/bin/env bash -c pwsh",
+    ])
       expect(lumine.grammars.selectGrammar("script", text).scopeName).not.toBe("source.powershell");
     expect(
       lumine.grammars.selectGrammar("Custom.Format.ps1xml", "<Configuration/>").scopeName,
