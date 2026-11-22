@@ -19,6 +19,7 @@
     "highlightsQuery": "powershell-highlights.scm",
     "foldsQuery": "powershell-folds.scm",
     "indentsQuery": "powershell-indents.scm",
+    "tagsQuerySupportsLocalPath": true,
     "tagsQuery": "powershell-tags.scm",
     "localsQuery": "powershell-locals.scm",
     "injectionsQuery": "powershell-injections.scm"
